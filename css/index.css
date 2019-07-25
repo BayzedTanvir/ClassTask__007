@@ -1,0 +1,319 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+.log_in{
+	position: fixed;
+	top: 0;
+	right: 200px;
+}
+.client_log_in{
+	font-family: sans-serif;
+    font-weight: 300;
+    font-size: 12px;
+    background: white;
+    color: #121A2B;
+    text-decoration: none;
+    padding: 8px 22px;
+    display: inline-block;
+    border: 1px solid #c3bfbf;
+    text-transform: uppercase;
+}
+.employee_log_in{
+	font-family: sans-serif;
+    font-weight: 300;
+    font-size: 12px;
+    background: #0078BC;
+    color: white;
+    text-decoration: none;
+    padding: 8px 22px;
+    display: inline-block;
+    position: relative;
+    left: -4px;
+    border: 1px solid transparent;
+    text-transform: uppercase;
+}
+/* header start */
+.header{
+	background-color: #121B2A;
+}
+.wrapper{
+	width: 90%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.logo{
+	width: 20%;
+	float: left;
+}
+.logo a img{
+	width: 100%;
+}
+.menu{
+	width: 70%;
+	float: right;
+	margin-top: 55px;
+}
+.menu ul{
+	float: right;
+}
+.menu ul li{
+	list-style: none;
+	float: left;
+}
+.menu ul li a{
+	text-decoration: none;
+	padding: 0 20px;
+	color: white;
+	font-family: sans-serif;
+	display: block;
+	transition: 0.3s all ease;
+	text-transform: uppercase;
+}
+.menu ul li:last-child a{
+	padding-right: 0;
+}
+.menu ul li a:hover{
+	color: #0078BD;
+}
+/* header end */
+
+/* banner start */
+.banner{
+	background-image: url(../images/blue.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center right;
+}
+.banner_content{
+	width: 50%;
+	margin-top: 250px;
+	margin-bottom: 100px;
+	margin-left: 40px;
+}
+.banner h1{
+	font-family: sans-serif;
+	font-weight: 400;
+	font-size: 30px;
+	color: white;
+	margin: 0;
+}
+.banner h2{
+	font-family: sans-serif;
+	font-size: 30px;
+	color: #0074B9;
+	margin: 0;
+}
+.banner p{
+	font-family: sans-serif;
+	font-size: 20px;
+	margin: 5px 0 40px;
+	line-height: 30px;
+	color: white;
+	text-align: justify;
+}
+.banner button{
+	border: none;
+	padding: 10px 15px;
+	text-transform: uppercase;
+	color: #5A5A5A;
+	border-radius: 5px;
+	background-color: #FFFFFF;
+	font-weight: bold;
+	font-size: 25px;
+}
+.banner_content button i{
+    margin-left: 25px;
+    font-size: 25px;
+    color: #0274B7;
+}
+/* banner end */
+
+/* service start */
+.service{
+	background-color: #121B2C;
+}
+.single{
+	width: 30%;
+    border-right: 1px solid #1A2430;
+    float: left;
+    padding: 5% 1.6% 2%;
+}
+.single:last-child{
+	border-right: none;
+}
+.top{
+	overflow: hidden;
+}
+.icon{
+	width: 25%;
+	float: left;
+}
+.icon img{
+	width: 100%;
+}
+.icon_content{
+	width: 70%;
+	float: left;
+	margin-top: 37px;
+	margin-left: 5px;
+}
+.icon_content h1{
+	margin: 0;
+	color: white;
+    font-family: sans-serif;
+    font-weight: 400;
+}
+.icon_content h2{
+	margin: 0;
+    color: #0079BC;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+span{
+	color: #0079BC;
+    font-family: sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+}
+.bottom{}
+.bottom p{
+	font-family: sans-serif;
+	font-size: 18px;
+	line-height: 20px;
+	color: white;
+	margin-top: 20px;
+
+}
+/* service end */
+
+/* developer start */
+.developer{
+	background-color: #040811;
+} 
+.contact{
+	font-family: sans-serif;
+	color: #9FA1A4;
+	width: 30%;
+	float: left;
+	padding: 7.4% 1.5%;
+
+}
+.contact table{
+	color: #9FA1A4;
+	font-family: sans-serif;
+	font-size: 100%;
+}
+.shape{
+	font-family: sans-serif;
+    background: #0C1019;
+    display: block;
+    padding: 10px 20px;
+    border-radius: 8px;
+    position: relative;
+}
+.shape::after{
+	width: 0;
+    height: 0;
+    content: "";
+    border-top: 20px solid #0C1019;
+    border-right: 50px solid transparent;
+    position: absolute;
+    bottom: -20px;
+    right: 60px;
+    z-index: 999;
+}
+.under_shape{
+	
+}
+.under_shape h2{
+	font-family: sans-serif;
+	color: #9FA1A4;
+	margin-top: 25px;
+    margin-bottom: 10px;
+}
+.under_shape p{
+	margin-top: 0px;
+}
+.iphone{
+	width: 35%;
+	float: left;
+}
+.iphone img{
+	width: 100%;
+}
+.app_store{
+	width: 55%;
+	float: left;
+	margin-left: 35px;
+}
+.app_store h1{
+	margin-bottom: 0;
+}
+.app_store h2{
+	margin-top: 0;
+	margin-bottom: 20px;
+}
+.app_store img{}
+/* developer end */
+
+/* footer start */
+.footer{
+	background-color: #121B2C;
+	padding: 20px 0;
+}
+.contact_us{
+	width: 65%;
+	float: left;
+}
+.contact_us ul{
+	overflow: hidden;
+	margin: 0;
+	padding: 0;
+}
+.contact_us ul li{
+	list-style: none;
+	float: left;
+	border-right: 1px solid #B9BBBF;
+}
+.contact_us ul li:last-child{
+	border-right: none;
+}
+.contact_us ul li a{
+	text-decoration: none;
+	display: block;
+	color: #B9BBBF;
+	padding: 0px 20px;
+	transition: 0.3s all ease;
+	font-family: sans-serif;
+	font-size: 100%;
+}
+.contact_us ul li a:hover{
+	color: #016BAA;
+}
+.contact_us p{
+	color: #B9BBBF;
+	font-family: sans-serif;
+	font-size: 100%;
+	margin-left: 20px;
+}
+.symbol{
+	width: 25%;
+	float: right;
+}
+.symbian{
+	width: 45%;
+	float: left;
+}
+.symbian img{
+	width: 100%;
+}
+.edge{
+	width: 45%;
+	float: left;
+	margin-left: 20px;
+}
+.edge img{
+	width: 100%;
+}
+/* footer end */
